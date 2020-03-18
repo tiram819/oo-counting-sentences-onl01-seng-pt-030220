@@ -4,7 +4,9 @@ class String
 
   def sentence?
     self.end_with?("!")
-    return 
+    return true 
+  else
+    return false
     
   end
 
